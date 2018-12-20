@@ -1,0 +1,24 @@
+-- VERSION_5
+-- START DISKCACHE_2
+C:\Users\bryan\Desktop\YNC\Y2S1\Intro to Python & C\Week 4\.metadata\.plugins\org.eclipse.core.resources\.projects\Assignment 4\com.python.pydev.analysis\v2_indexcache
+Lab_03_skeleton|1535873569150728000|C:\Users\bryan\Desktop\YNC\Y2S1\Intro to Python & C\Week 4\Assignment 4\Lab_03_skeleton.py
+-- END DISKCACHE
+-- START DICTIONARY
+2
+2=Lab_03_skeleton
+1=C:\Users\bryan\Desktop\YNC\Y2S1\Intro to Python & C\Week 4\Assignment 4\Lab_03_skeleton.py
+-- END DICTIONARY
+-- START TREE 1
+8
+cou|1|count!1^15#5*18@
+des|1|describe_data!1^8#5*18@
+det|1|detect_noise!1^43#5*18@
+lar|1|largest_three!1^23#5*18@
+new|1|new_signal!1^80#1*19@
+ori|1|original_wave_sample!1^35#1*19@
+rep|1|repair_signal!1^61#5*18@
+t|1|t!1^36#1*19@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

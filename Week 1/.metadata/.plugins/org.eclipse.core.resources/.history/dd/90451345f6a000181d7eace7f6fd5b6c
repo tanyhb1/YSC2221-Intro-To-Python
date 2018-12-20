@@ -1,0 +1,8 @@
+def square(x):
+    return x * x
+
+if __name__ == '__main__':
+   a = 9
+   print(a)
+   print(square(3))
+   

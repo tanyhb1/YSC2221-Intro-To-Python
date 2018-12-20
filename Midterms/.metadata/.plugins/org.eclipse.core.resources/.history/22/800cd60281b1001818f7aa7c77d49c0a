@@ -1,0 +1,22 @@
+def cat(dna):
+    l = ['A', 'C', 'G', 'T']
+    stor = []
+    for i in range(0, len(l)):
+        for j in range(0, len(l)):
+            for k in range(0, len(l)):
+                new_str = 'CAT' + l[i] + l[j] + l[k] + 'CAT'
+                stor.append(new_str)
+    print(len(stor))
+    print(stor)
+    for x in stor:
+        if x in dna:
+            return True
+    return False
+def cat2(dna):
+    for i in range(0,len(dna)):
+        print (dna[i:i+3], dna[i+5, i+8])
+        if dna[i:i+3] == 'CAT' and dna[i+5:i+8] == 'CAT':
+            return True
+    return False
+print(cat('CATAGTCAT'))
+print(cat2('CATAGTCAT'))

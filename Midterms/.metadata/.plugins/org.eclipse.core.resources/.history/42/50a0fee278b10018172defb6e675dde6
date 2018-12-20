@@ -1,0 +1,5 @@
+DNA = 'AGCTAGTCATACCTATGTACTGACACGTCA'
+def sub_sequence(DNA, subseq):
+    return(subseq in DNA)
+print(sub_sequence(DNA,'ACA'))
+print(sub_sequence(DNA,'ACCTAA'))

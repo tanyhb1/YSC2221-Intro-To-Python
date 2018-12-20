@@ -1,0 +1,57 @@
+'''
+Full Name: TAN YAO HONG, BRYAN
+Matric No.: A0171585X
+Email: bryantanyh@u.yale-nus.edu.sg
+'''
+
+#Complete Q1a below
+def nChooseK(n,k):
+    x, y, z = 1, 1, 1
+    for i in range(1, n+1):
+        x *= i
+    for i in range(1, k+1):
+        y *= i
+    for i in range(1, (n-k+1)):
+        z *= i
+    return(x//(y*z))
+    
+
+#Complete Q1b below
+def nChooseK_recursive(n,k):
+    if k == 0:
+        return 1
+    if n == k:
+        return 1
+    else:
+        return nChooseK_recursive(n-1, k-1) + nChooseK_recursive(n-1, k)
+'''
+Space for your thought in Question 1c
+
+The recursive function has a maximum recursive depth of around 1000. In my case, n or k cannot be greater than 992, or the
+recursive depth will be exceeded and the interpreter returns an error.
+
+On the other hand, the iterative function nChooseK can go beyond that. Its upper bound for the largest value it can churn 
+out in one minute is n = 200000
+
+'''
+
+    
+#Complete Q2 below
+def monte_carlo_pi(n):
+    return 0 # write your code here
+
+
+
+
+print(monte_carlo_pi(10))
+print(monte_carlo_pi(100))
+print(monte_carlo_pi(1000))
+print(monte_carlo_pi(10000))
+print(monte_carlo_pi(100000))
+print(monte_carlo_pi(1000000))
+
+
+
+if __name__ == '__main__':
+    print(nChooseK(100000, 2))  
+    print(nChooseK_recursive(990,2))

@@ -1,0 +1,16 @@
+from math import *
+
+def square(x):
+    return x * x
+
+def addTwoNumbers() :
+    a = int(input('Enter an integer\n'))
+    b = int(input('Enter another integer:\n'))
+    print('The sum is:')
+    print(a+b)
+
+def hypotenuse(a,b):
+    return sqrt(sum_of_squares(a,b))
+
+if __name__ == '__main__':
+    addTwoNumbers()

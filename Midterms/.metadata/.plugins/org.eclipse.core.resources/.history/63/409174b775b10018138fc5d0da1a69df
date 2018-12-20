@@ -1,0 +1,6 @@
+x = 'original' 
+def foo(value):
+    if value:
+        x = 'changed'
+    print(x)
+foo(False)

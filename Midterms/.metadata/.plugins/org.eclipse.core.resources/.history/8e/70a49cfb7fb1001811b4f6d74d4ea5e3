@@ -1,0 +1,15 @@
+def cat(dna):
+    l = ['A', 'C', 'G', 'T']
+    stor = []
+    for i in range(0, len(l)):
+        for j in range(0, len(l)):
+            for k in range(0, len(l)):
+                new_str = 'CAT' + l[i] + l[j] + l[k] + 'CAT'
+                stor.append(new_str)
+    print(len(stor))
+    for x in stor:
+        if x in dna:
+            return True
+    return False
+
+print(cat('ADSKFLJSALFKHSFCATSADCATDSAFDSAF'))

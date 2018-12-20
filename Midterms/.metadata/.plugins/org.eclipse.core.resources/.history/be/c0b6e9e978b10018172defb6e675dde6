@@ -1,0 +1,7 @@
+x = 'original' 
+def foo(value):
+    print(x)
+foo(False)
+foo(True)
+
+

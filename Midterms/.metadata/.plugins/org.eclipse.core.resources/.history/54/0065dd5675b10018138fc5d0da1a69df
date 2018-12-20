@@ -1,0 +1,24 @@
+DNA = 'AGCTAGTCATACCTATGTACTGACACGTCA'
+
+
+def sub_sequence(DNA, subseq):
+    return(subseq in DNA)
+
+print(sub_sequence(DNA, 'ACA'))
+sub_sequence(DNA, 'ACCTAA')
+sub_sequence(DNA, 'GACACGTCA')
+sub_sequence(DNA, 'AGCTC')
+
+def isCatDNA(dna):
+    l = ['C','A','G','T']
+    stor = []
+    for i in range(0, len(l)):
+        for j in range(0, len(l)):
+            for k in range(0, len(l)):
+                new_str = 'CAT' + l[i] + l[j] + l[k] +'CAT'
+                stor.append(new_str)
+    for item in stor:
+        if item in dna:
+            return True
+    return False
+print(isCatDNA('CATAATCAT'))

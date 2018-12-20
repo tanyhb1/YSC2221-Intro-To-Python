@@ -1,0 +1,11 @@
+def square(x):
+    return x * x
+
+def addTwoNumbers() :
+    a = int(input('Enter an integer\n'))
+    b = int(input('Enter another integer:'))
+    print('The sum is:')
+    print(a+b)
+
+if __name__ == '__main__':
+    addTwoNumbers()

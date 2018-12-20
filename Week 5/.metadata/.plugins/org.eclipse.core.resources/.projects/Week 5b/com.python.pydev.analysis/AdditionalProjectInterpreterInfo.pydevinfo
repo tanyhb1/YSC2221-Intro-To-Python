@@ -1,0 +1,39 @@
+-- VERSION_5
+-- START DISKCACHE_2
+C:\Users\bryan\Desktop\YNC\Y2S1\Python\Week 5\.metadata\.plugins\org.eclipse.core.resources\.projects\Week 5b\com.python.pydev.analysis\v2_indexcache
+class6a|1537198335594919000|C:\Users\bryan\Desktop\YNC\Y2S1\Python\Week 5\Week 5b\class6a.py
+class5b|1536802080144570000|C:\Users\bryan\Desktop\YNC\Y2S1\Python\Week 5\Week 5b\class5b.py
+-- END DISKCACHE
+-- START DICTIONARY
+4
+2=class6a
+4=class5b
+1=C:\Users\bryan\Desktop\YNC\Y2S1\Python\Week 5\Week 5b\class6a.py
+3=C:\Users\bryan\Desktop\YNC\Y2S1\Python\Week 5\Week 5b\class5b.py
+-- END DICTIONARY
+-- START TREE 1
+20
+a|2|a!1^89#1*19@a!1^69#5*18@
+add|2|add1!1^54#5*18@add1to!1^42#5*18@
+cat|2|cat_pic2!3^6#1*35@cat_pic!3^4#1*35@
+der|1|deriv!1^61#5*18@
+dis|1|distance!1^4#5*18@
+do_|2|do_twice!1^37#5*18@do_n_times!1^46#5*18@
+f|1|f!1^13#5*18@
+f_1|1|f_1!1^28#1*19@
+fun|2|func_sin!1^66#1*19@func_add1!1^56#1*19@
+mak|1|make_yell_n!1^19#5*18@
+my_|2|my_f!1^32#1*19@my_own_sqrt!1^82#5*18@
+new|1|newtonM!1^75#5*18@
+rot|2|rotate_cat!3^7#1*35@rotate_face_noreshape!3^8#1*35@
+squ|1|square!1^44#5*18@
+x|1|x!1^15#1*19@
+x1|1|x1!1^94#1*19@
+y1|1|y1!1^95#1*19@
+y3|1|y3!1^100#1*19@
+y4|1|y4!1^101#1*19@
+yel|1|yell_4!1^25#1*19@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

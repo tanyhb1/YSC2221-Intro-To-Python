@@ -1,0 +1,21 @@
+-- VERSION_5
+-- START DISKCACHE_2
+C:\Users\bryan\Desktop\YNC\Y2S1\Intro to Python & C\Week 1\.metadata\.plugins\org.eclipse.core.resources\.projects\class_1b\com.python.pydev.analysis\v2_indexcache
+test|1534385356284996000|C:\Users\bryan\Desktop\YNC\Y2S1\Intro to Python & C\Week 1\class_1b\test.py
+-- END DISKCACHE
+-- START DICTIONARY
+2
+1=C:\Users\bryan\Desktop\YNC\Y2S1\Intro to Python & C\Week 1\class_1b\test.py
+2=test
+-- END DICTIONARY
+-- START TREE 1
+5
+add|1|addTwoNumbers!1^6#5*18@
+hyp|1|hypotenuse!1^14#5*18@
+qua|1|quadratic_solver!1^17#5*18@
+squ|1|square!1^3#5*18@
+sum|1|sum_of_squares!1^12#5*18@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE
